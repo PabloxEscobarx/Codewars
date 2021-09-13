@@ -5,15 +5,3 @@ function fil(n) {
     return filtered
 };
 console.log(fil(arr));
-
-
-
-
-
-
-// let filtered = n.filter(function(i) {
-//     if (Number.isInteger(i)) {
-//         return i
-//     }
-// });
-// return filtered
