@@ -1,12 +1,19 @@
-// In this kata you will create a function
-//  that takes a list of non-negative integers and strings and returns a new list 
-//  with the strings filtered out.
-
-
-let arr = [1, 2, 'a', 'b']
+let arr = [1, 2, 'a', 'b', '1']
 
 function fil(n) {
-    let filtered = n.filter((i) => !isNaN(i));
+    let filtered = n.filter((i) => Number.isInteger(i));
     return filtered
 };
 console.log(fil(arr));
+
+
+
+
+
+
+// let filtered = n.filter(function(i) {
+//     if (Number.isInteger(i)) {
+//         return i
+//     }
+// });
+// return filtered
